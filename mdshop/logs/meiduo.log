@@ -18,3 +18,658 @@ WARNING 2018-09-19 11:29:52,738 base 152 Not Found: /mobiles/15170444038/count/
 WARNING 2018-09-19 11:29:52,738 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 404 2203
 WARNING 2018-09-19 11:29:52,878 base 152 Not Found: /mobiles/15170444038/count/
 WARNING 2018-09-19 11:29:52,878 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 404 2203
+WARNING 2018-09-19 12:34:32,800 base 152 Not Found: /mobiles/15170444038/count/
+WARNING 2018-09-19 12:34:32,801 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 404 2203
+WARNING 2018-09-19 12:34:32,947 base 152 Not Found: /mobiles/15170444038/count/
+WARNING 2018-09-19 12:34:32,952 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 404 2203
+WARNING 2018-09-19 12:35:14,982 tasks 30 发送验证码短信[失败][ mobile: 15170444038 ]
+INFO 2018-09-19 12:35:14,984 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 16
+WARNING 2018-09-19 12:49:48,296 base 152 Not Found: /mobiles/15170444038/count/
+WARNING 2018-09-19 12:49:48,297 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 404 2203
+WARNING 2018-09-19 12:49:48,434 base 152 Not Found: /mobiles/15170444038/count/
+WARNING 2018-09-19 12:49:48,439 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 404 2203
+WARNING 2018-09-19 12:50:09,459 tasks 30 发送验证码短信[失败][ mobile: 15170444038 ]
+INFO 2018-09-19 12:50:09,460 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 16
+WARNING 2018-09-19 12:52:08,692 tasks 30 发送验证码短信[失败][ mobile: 15170444038 ]
+INFO 2018-09-19 12:52:08,717 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 5176
+INFO 2018-09-19 12:52:08,748 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2018-09-19 12:52:08,756 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2018-09-19 12:52:08,760 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2018-09-19 12:52:08,762 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2018-09-19 12:52:08,769 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+INFO 2018-09-19 12:52:08,771 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2018-09-19 12:52:08,777 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2018-09-19 12:52:08,780 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2018-09-19 12:52:08,784 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2018-09-19 12:52:08,786 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2018-09-19 12:52:08,792 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2018-09-19 12:52:37,084 tasks 30 发送验证码短信[失败][ mobile: 15170444038 ]
+INFO 2018-09-19 12:52:37,095 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 5176
+INFO 2018-09-19 13:00:26,506 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 13:00:26,663 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 13:00:47,688 tasks 30 发送验证码短信[失败][ mobile: 15170444038 ]
+INFO 2018-09-19 13:00:47,689 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 16
+INFO 2018-09-19 15:08:02,028 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:08:24,206 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:08:25,398 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:08:39,525 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:08:41,971 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:08:43,923 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 15:08:46,446 tasks 30 发送验证码短信[失败][ mobile: 15170444038 ]
+INFO 2018-09-19 15:08:46,448 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 16
+INFO 2018-09-19 15:09:00,730 basehttp 124 "OPTIONS /users/ HTTP/1.1" 200 0
+WARNING 2018-09-19 15:09:00,736 base 152 Not Found: /users/
+WARNING 2018-09-19 15:09:00,737 basehttp 124 "POST /users/ HTTP/1.1" 404 2688
+INFO 2018-09-19 15:09:00,748 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:09:00,749 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 15:09:16,219 base 152 Not Found: /users/
+WARNING 2018-09-19 15:09:16,222 basehttp 124 "POST /users/ HTTP/1.1" 404 2688
+INFO 2018-09-19 15:09:16,270 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:09:16,272 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 15:09:17,034 base 152 Not Found: /users/
+WARNING 2018-09-19 15:09:17,036 basehttp 124 "POST /users/ HTTP/1.1" 404 2688
+INFO 2018-09-19 15:09:17,043 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:09:17,045 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+WARNING 2018-09-19 15:09:17,286 base 152 Not Found: /users/
+WARNING 2018-09-19 15:09:17,288 basehttp 124 "POST /users/ HTTP/1.1" 404 2688
+INFO 2018-09-19 15:09:17,296 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:09:17,299 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 15:09:17,496 base 152 Not Found: /users/
+WARNING 2018-09-19 15:09:17,498 basehttp 124 "POST /users/ HTTP/1.1" 404 2688
+INFO 2018-09-19 15:09:17,501 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:09:17,504 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 15:09:17,646 base 152 Not Found: /users/
+WARNING 2018-09-19 15:09:17,649 basehttp 124 "POST /users/ HTTP/1.1" 404 2688
+INFO 2018-09-19 15:09:17,657 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:09:17,660 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 15:09:17,828 base 152 Not Found: /users/
+WARNING 2018-09-19 15:09:17,834 basehttp 124 "POST /users/ HTTP/1.1" 404 2688
+INFO 2018-09-19 15:09:17,841 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:09:17,843 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 15:09:18,001 base 152 Not Found: /users/
+WARNING 2018-09-19 15:09:18,003 basehttp 124 "POST /users/ HTTP/1.1" 404 2688
+INFO 2018-09-19 15:09:18,011 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:09:18,012 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 15:09:18,199 base 152 Not Found: /users/
+WARNING 2018-09-19 15:09:18,203 basehttp 124 "POST /users/ HTTP/1.1" 404 2688
+INFO 2018-09-19 15:09:18,209 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:09:18,214 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 15:09:19,748 base 152 Not Found: /users/
+WARNING 2018-09-19 15:09:19,751 basehttp 124 "POST /users/ HTTP/1.1" 404 2688
+INFO 2018-09-19 15:09:19,756 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:09:19,759 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 15:09:21,404 base 152 Not Found: /users/
+WARNING 2018-09-19 15:09:21,406 basehttp 124 "POST /users/ HTTP/1.1" 404 2688
+INFO 2018-09-19 15:09:21,413 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:09:21,417 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+ERROR 2018-09-19 15:09:46,428 exception 135 Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 434, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 482, in to_internal_value
+    fields = self._writable_fields
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 370, in _writable_fields
+    field for field in self.fields.values() if not field.read_only
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1020, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1121, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'allow' was declared on serializer CreateUserSerializer, but has not been included in the 'fields' option.
+INFO 2018-09-19 15:09:46,434 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:09:46,437 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+ERROR 2018-09-19 15:09:46,496 basehttp 124 "POST /users/ HTTP/1.1" 500 19751
+ERROR 2018-09-19 15:09:46,614 exception 135 Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 434, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 482, in to_internal_value
+    fields = self._writable_fields
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 370, in _writable_fields
+    field for field in self.fields.values() if not field.read_only
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1020, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1121, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'allow' was declared on serializer CreateUserSerializer, but has not been included in the 'fields' option.
+ERROR 2018-09-19 15:09:46,637 basehttp 124 "POST /users/ HTTP/1.1" 500 19752
+INFO 2018-09-19 15:09:46,646 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:09:46,648 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:09:47,375 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+ERROR 2018-09-19 15:09:48,787 exception 135 Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 434, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 482, in to_internal_value
+    fields = self._writable_fields
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 370, in _writable_fields
+    field for field in self.fields.values() if not field.read_only
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1020, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1121, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'allow' was declared on serializer CreateUserSerializer, but has not been included in the 'fields' option.
+INFO 2018-09-19 15:09:48,814 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:09:48,817 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+ERROR 2018-09-19 15:09:48,818 basehttp 124 "POST /users/ HTTP/1.1" 500 19752
+WARNING 2018-09-19 15:10:08,439 tasks 30 发送验证码短信[失败][ mobile: 15170444038 ]
+INFO 2018-09-19 15:10:08,440 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 16
+INFO 2018-09-19 15:12:09,238 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:12:16,923 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:12:18,269 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+WARNING 2018-09-19 15:12:39,316 tasks 30 发送验证码短信[失败][ mobile: 15170444038 ]
+INFO 2018-09-19 15:12:39,317 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 16
+INFO 2018-09-19 15:12:55,834 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:12:55,837 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+ERROR 2018-09-19 15:12:57,656 exception 135 Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 434, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 482, in to_internal_value
+    fields = self._writable_fields
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 370, in _writable_fields
+    field for field in self.fields.values() if not field.read_only
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1020, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1121, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'allow' was declared on serializer CreateUserSerializer, but has not been included in the 'fields' option.
+INFO 2018-09-19 15:12:57,671 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:12:57,683 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+ERROR 2018-09-19 15:12:57,702 basehttp 124 "POST /users/ HTTP/1.1" 500 19751
+INFO 2018-09-19 15:14:25,138 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:14:39,827 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:14:41,010 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+ERROR 2018-09-19 15:14:48,649 exception 135 Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 434, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 482, in to_internal_value
+    fields = self._writable_fields
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 370, in _writable_fields
+    field for field in self.fields.values() if not field.read_only
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1045, in get_fields
+    source, info, model, depth
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1190, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1302, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `mobile` is not valid for model `User`.
+INFO 2018-09-19 15:14:48,658 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:14:48,662 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+ERROR 2018-09-19 15:14:48,692 basehttp 124 "POST /users/ HTTP/1.1" 500 19791
+WARNING 2018-09-19 15:15:02,048 tasks 30 发送验证码短信[失败][ mobile: 15170444038 ]
+INFO 2018-09-19 15:15:02,049 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 16
+ERROR 2018-09-19 15:17:45,815 exception 135 Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 434, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 482, in to_internal_value
+    fields = self._writable_fields
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 370, in _writable_fields
+    field for field in self.fields.values() if not field.read_only
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1045, in get_fields
+    source, info, model, depth
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1190, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1302, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `mobile` is not valid for model `User`.
+INFO 2018-09-19 15:17:45,841 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:17:45,846 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+ERROR 2018-09-19 15:17:45,865 basehttp 124 "POST /users/ HTTP/1.1" 500 19790
+INFO 2018-09-19 15:20:35,811 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:20:47,336 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:20:47,498 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:21:08,523 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 16
+INFO 2018-09-19 15:21:18,088 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:21:18,090 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:21:20,085 basehttp 124 "OPTIONS /users/ HTTP/1.1" 200 0
+ERROR 2018-09-19 15:21:20,096 exception 135 Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 236, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 434, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 482, in to_internal_value
+    fields = self._writable_fields
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 370, in _writable_fields
+    field for field in self.fields.values() if not field.read_only
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1045, in get_fields
+    source, info, model, depth
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1190, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 1302, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `mobile` is not valid for model `User`.
+INFO 2018-09-19 15:21:20,099 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+INFO 2018-09-19 15:21:20,111 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+ERROR 2018-09-19 15:21:20,136 basehttp 124 "POST /users/ HTTP/1.1" 500 19791
+INFO 2018-09-19 15:23:27,572 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+ERROR 2018-09-19 15:23:57,784 exception 135 Internal Server Error: /mobiles/15170444038/count/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/apps/users/views.py", line 32, in get
+    count = User.objects.filter(mobiles=mobile).count()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'mobiles' into field. Choices are: date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, password, user_permissions, username
+ERROR 2018-09-19 15:23:57,840 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 500 19878
+ERROR 2018-09-19 15:23:57,945 exception 135 Internal Server Error: /mobiles/15170444038/count/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/apps/users/views.py", line 32, in get
+    count = User.objects.filter(mobiles=mobile).count()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'mobiles' into field. Choices are: date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, password, user_permissions, username
+ERROR 2018-09-19 15:23:57,972 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 500 19878
+INFO 2018-09-19 15:24:19,020 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 16
+ERROR 2018-09-19 15:24:29,485 exception 135 Internal Server Error: /mobiles/15170444038/count/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/apps/users/views.py", line 32, in get
+    count = User.objects.filter(mobiles=mobile).count()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'mobiles' into field. Choices are: date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, password, user_permissions, username
+WARNING 2018-09-19 15:24:29,507 basehttp 124 "POST /users/ HTTP/1.1" 400 43
+INFO 2018-09-19 15:24:29,511 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+ERROR 2018-09-19 15:24:29,535 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 500 19878
+ERROR 2018-09-19 15:24:33,841 exception 135 Internal Server Error: /mobiles/15170444038/count/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/apps/users/views.py", line 32, in get
+    count = User.objects.filter(mobiles=mobile).count()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'mobiles' into field. Choices are: date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, password, user_permissions, username
+INFO 2018-09-19 15:24:33,865 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+WARNING 2018-09-19 15:24:33,870 basehttp 124 "POST /users/ HTTP/1.1" 400 43
+ERROR 2018-09-19 15:24:33,886 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 500 19878
+INFO 2018-09-19 15:25:09,974 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+ERROR 2018-09-19 15:25:32,307 exception 135 Internal Server Error: /mobiles/15170444038/count/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/apps/users/views.py", line 32, in get
+    count = User.objects.filter(mobiles=mobile).count()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'mobiles' into field. Choices are: date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, password, user_permissions, username
+ERROR 2018-09-19 15:25:32,384 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 500 19878
+ERROR 2018-09-19 15:25:32,500 exception 135 Internal Server Error: /mobiles/15170444038/count/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/apps/users/views.py", line 32, in get
+    count = User.objects.filter(mobiles=mobile).count()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 784, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/query.py", line 802, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1250, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1276, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1154, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1034, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1352, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'mobiles' into field. Choices are: date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, password, user_permissions, username
+ERROR 2018-09-19 15:25:32,529 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 500 19878
+INFO 2018-09-19 15:25:53,539 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 16
+INFO 2018-09-19 15:26:23,108 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:26:23,112 basehttp 124 "GET /usernames/15170444038/count/ HTTP/1.1" 200 36
+WARNING 2018-09-19 15:26:23,119 basehttp 124 "POST /users/ HTTP/1.1" 400 43
+INFO 2018-09-19 15:28:53,919 basehttp 124 "GET /usernames/licheng/count/ HTTP/1.1" 200 32
+INFO 2018-09-19 15:29:14,920 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:29:15,118 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:29:36,168 basehttp 124 "GET /sms_codes/15170444038/ HTTP/1.1" 200 16
+INFO 2018-09-19 15:29:40,248 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:29:40,249 basehttp 124 "GET /usernames/licheng/count/ HTTP/1.1" 200 32
+WARNING 2018-09-19 15:29:40,255 basehttp 124 "POST /users/ HTTP/1.1" 400 43
+INFO 2018-09-19 15:30:09,878 basehttp 124 "GET /mobiles/15170444038/count/ HTTP/1.1" 200 34
+INFO 2018-09-19 15:30:09,883 basehttp 124 "GET /usernames/licheng/count/ HTTP/1.1" 200 32
+INFO 2018-09-19 15:30:09,939 basehttp 124 "POST /users/ HTTP/1.1" 201 143

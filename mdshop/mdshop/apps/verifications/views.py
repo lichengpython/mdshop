@@ -8,7 +8,8 @@ from rest_framework.views import APIView
 from django_redis import get_redis_connection
 from rest_framework import status
 
-from libs.yuntongxun.sms import CCP
+from celery_tasks.sms import tasks
+from mdshop.libs.yuntongxun.sms import CCP
 
 
 class SMSCodeView(APIView):
@@ -31,7 +32,10 @@ class SMSCodeView(APIView):
         print(sms_code)
 
 
-        CCP().send_template_sms(mobile,[sms_code,60],1)
+        # CCP().send_template_sms(mobile,[sms_code,60],1)
+
+
+        # tasks.send_sms_code(mobile,sms_code,1)
 
         # 使用管道
         p = redis_conn.pipeline()
