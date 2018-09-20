@@ -23,3 +23,37 @@ class User(AbstractUser):
         token = serializer.dumps(data).decode()
         verify_url = 'http://www.meiduo.site:8080/success_verify_email.html?token=' + token
         return verify_url
+
+    @staticmethod
+    def check_verify_email_token(token):
+        serializer = TJS(settings.SECRET_KEY,300)
+        try:
+            data = serializer.loads(token)
+        except Exception:
+            return None
+
+        else:
+            email = data.get('email')
+            user_id = data.get('user_id')
+
+            try:
+                user = User.objects.get(id=user_id,email=email)
+            except Exception:
+                return None
+
+            else:
+                return user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
