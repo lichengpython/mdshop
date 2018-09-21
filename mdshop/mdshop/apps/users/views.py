@@ -1,10 +1,13 @@
 from django.shortcuts import render
 
 # Create your views here.
+from rest_framework import mixins
 from rest_framework import status
+from rest_framework.decorators import action
 from rest_framework.generics import CreateAPIView, RetrieveAPIView, UpdateAPIView
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.viewsets import GenericViewSet
 
 from users import serializers
 from users.models import User
@@ -92,6 +95,86 @@ class VerifyEmailView(APIView):
             user.save()
 
             return Response({'message':'ok'})
+
+
+class AddressViewSet(mixins.CreateModelMixin,mixins.UpdateModelMixin,GenericViewSet):
+    # 用户地址新增与修改
+
+    serializer_class = serializers.UserAddressSerializer
+
+    permissions = [IsAuthenticated]
+
+    def get_queryset(self):
+        return self.request.user.addresses.filter(is_deleted = False)
+
+    # GET /addresses/
+    # 用户地址列表数据
+    def list(self,request,*args,**kwargs):
+        queryset = self.get_queryset()
+        serializers = self.get_serializer(queryset,many=True)
+        user = self.request.user
+        return Response(
+            {
+                'user_id':user.id,
+                'default_address_id':user.default_address_id,
+                'limit':5,
+                'addresses':serializers.data,
+            }
+        )
+
+    # POST /addresses/
+    def create(self, request, *args, **kwargs):
+        # 保存用户地址数据
+        # 先判断用户地址数量
+        count = request.user.addresses.count()
+        if count >= 5:
+            return Response({'error':'保存数量达到上限'},status=status.HTTP_400_BAD_REQUEST)
+
+        return super(AddressViewSet, self).create(request,*args,**kwargs)
+
+
+    # delete /addresses/<pk>/
+    def destroy(self,request,*args,**kwargs):
+        # 删除地址
+        address = self.get_object()
+
+        # 进行逻辑删除
+        address.is_deleted = True
+        address.save()
+
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
+    # put /addresses/pk/status/
+    @action(methods=['put'],detail=True)
+    def status(self,request,pk=None):
+        # 设置默认地址
+        address = self.get_object()
+        request.user.default_address_id = address
+
+        request.user.save()
+
+        return Response(status=status.HTTP_200_OK
+                        )
+
+    # put /addresses/pk/title/
+    # 需要请求体参数 title
+    @action(methods=['put'],detail=True)
+    def title(self,request,pk=None):
+        # 修改标题
+        address = self.get_object()
+        serializer = serializers.AddressTitleSerializer(instance=address,data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+
+
+
+
+
+
+
+
 
 
 
