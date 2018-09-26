@@ -1814,3 +1814,682 @@ WARNING 2018-09-26 11:37:05,840 basehttp 124 "GET /categories/115/hotskus/ HTTP/
 INFO 2018-09-26 11:37:05,870 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
 INFO 2018-09-26 11:37:07,355 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 1369
 INFO 2018-09-26 11:37:08,295 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 1033
+INFO 2018-09-26 11:40:09,816 basehttp 124 "GET /admin/ HTTP/1.1" 200 8149
+INFO 2018-09-26 11:40:12,020 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4660
+INFO 2018-09-26 11:40:12,060 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 11:40:15,038 basehttp 124 "GET /admin/goods/goods/add/ HTTP/1.1" 200 84027
+INFO 2018-09-26 11:40:15,084 basehttp 124 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,095 basehttp 124 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,108 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 11:40:15,289 basehttp 124 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,311 basehttp 124 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,314 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,329 basehttp 124 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,346 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,348 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,349 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,354 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,356 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,402 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:15,429 basehttp 124 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:17,348 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/image/dialogs/image.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:17,353 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:17,401 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:17,402 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png HTTP/1.1" 304 0
+INFO 2018-09-26 11:40:17,403 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 304 0
+ERROR 2018-09-26 11:40:23,961 exception 135 Internal Server Error: /ckeditor/upload/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 94, in post
+    saved_path = self._save_file(request, uploaded_file)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 133, in _save_file
+    saved_path = storage.save(filename, uploaded_file)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/files/storage.py", line 54, in save
+    return self._save(name, content)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/utils/fastdfs/fdfs_storage.py", line 36, in _save
+    ret = client.upload_by_buffer(content.read())
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/fdfs_client/client.py", line 125, in upload_by_buffer
+    store_serv = tc.tracker_query_storage_stor_without_group()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/fdfs_client/tracker_client.py", line 381, in tracker_query_storage_stor_without_group
+    raise DataError('[-] Error: %d, %s' % (th.status, os.strerror(th.status)))
+fdfs_client.exceptions.DataError: [-] Error: 2, No such file or directory
+ERROR 2018-09-26 11:40:24,868 basehttp 124 "POST /ckeditor/upload/ HTTP/1.1" 500 125489
+INFO 2018-09-26 19:41:38,313 basehttp 124 "GET / HTTP/1.1" 200 5183
+WARNING 2018-09-26 19:41:39,068 base 152 Not Found: /favicon.ico
+WARNING 2018-09-26 19:41:39,070 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 7412
+INFO 2018-09-26 19:42:18,660 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+INFO 2018-09-26 19:42:18,769 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1652
+INFO 2018-09-26 19:42:39,540 basehttp 124 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+INFO 2018-09-26 19:42:43,731 basehttp 124 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2018-09-26 19:42:43,770 basehttp 124 "GET /admin/ HTTP/1.1" 200 8149
+INFO 2018-09-26 19:42:47,103 basehttp 124 "GET /admin/goods/brand/ HTTP/1.1" 200 4402
+INFO 2018-09-26 19:42:47,144 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 19:42:48,697 basehttp 124 "GET /admin/goods/brand/1/change/ HTTP/1.1" 200 5200
+INFO 2018-09-26 19:42:48,730 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 19:42:50,237 basehttp 124 "POST /admin/goods/brand/1/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 19:42:50,290 basehttp 124 "GET /admin/goods/brand/ HTTP/1.1" 200 4565
+INFO 2018-09-26 19:42:50,320 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+WARNING 2018-09-26 19:42:56,447 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 19:42:56,451 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 19:42:56,470 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+INFO 2018-09-26 20:33:56,604 basehttp 124 "GET /admin/ HTTP/1.1" 200 8434
+INFO 2018-09-26 20:34:03,109 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4660
+INFO 2018-09-26 20:34:03,191 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:34:05,094 basehttp 124 "GET /admin/ HTTP/1.1" 200 8434
+INFO 2018-09-26 20:34:06,694 basehttp 124 "GET /admin/goods/goodscategory/ HTTP/1.1" 200 27848
+INFO 2018-09-26 20:34:06,764 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:34:08,509 basehttp 124 "GET /admin/goods/goodscategory/555/change/ HTTP/1.1" 200 27982
+INFO 2018-09-26 20:34:08,573 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:34:10,186 basehttp 124 "POST /admin/goods/goodscategory/555/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 20:34:10,910 basehttp 124 "GET /admin/goods/goodscategory/ HTTP/1.1" 200 28034
+INFO 2018-09-26 20:34:10,990 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:36:29,027 basehttp 124 "GET /admin/goods/goodscategory/555/change/ HTTP/1.1" 200 27982
+INFO 2018-09-26 20:36:29,082 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:36:30,501 basehttp 124 "POST /admin/goods/goodscategory/555/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 20:36:31,099 basehttp 124 "GET /admin/goods/goodscategory/ HTTP/1.1" 200 28034
+INFO 2018-09-26 20:36:31,151 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+WARNING 2018-09-26 20:36:31,561 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:36:31,563 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 20:36:31,582 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+INFO 2018-09-26 20:38:04,616 basehttp 124 "GET /admin/ HTTP/1.1" 200 9050
+INFO 2018-09-26 20:38:08,620 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8572
+INFO 2018-09-26 20:38:08,683 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:38:09,944 basehttp 124 "GET /admin/goods/sku/16/change/ HTTP/1.1" 200 34192
+INFO 2018-09-26 20:38:10,000 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:38:12,725 basehttp 124 "POST /admin/goods/sku/16/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 20:38:12,858 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8818
+INFO 2018-09-26 20:38:12,908 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+WARNING 2018-09-26 20:38:39,794 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:38:39,796 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 20:38:39,812 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+INFO 2018-09-26 20:48:01,736 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8572
+INFO 2018-09-26 20:48:01,851 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:48:03,649 basehttp 124 "GET /admin/goods/sku/16/change/ HTTP/1.1" 200 34192
+INFO 2018-09-26 20:48:03,688 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:48:13,692 basehttp 124 "POST /admin/goods/sku/16/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 20:48:13,810 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8818
+INFO 2018-09-26 20:48:13,870 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:51:46,120 basehttp 124 "GET /admin/ HTTP/1.1" 200 9786
+INFO 2018-09-26 20:51:57,346 basehttp 124 "GET / HTTP/1.1" 200 5214
+INFO 2018-09-26 20:52:04,325 basehttp 124 "GET /admin/ HTTP/1.1" 200 9786
+INFO 2018-09-26 20:52:07,928 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8572
+INFO 2018-09-26 20:52:07,983 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:52:09,932 basehttp 124 "GET /admin/goods/sku/16/change/ HTTP/1.1" 200 34192
+INFO 2018-09-26 20:52:09,979 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:52:15,457 basehttp 124 "POST /admin/goods/sku/16/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 20:52:15,601 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8818
+INFO 2018-09-26 20:52:15,658 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+WARNING 2018-09-26 20:52:46,304 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:52:46,306 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 20:52:46,327 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-26 20:52:47,461 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:52:47,465 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 20:53:02,085 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:53:02,087 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 20:53:04,145 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:53:04,147 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 20:53:21,382 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8572
+INFO 2018-09-26 20:53:21,443 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:53:22,847 basehttp 124 "GET /admin/goods/sku/15/change/ HTTP/1.1" 200 34186
+INFO 2018-09-26 20:53:22,887 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 20:53:25,635 basehttp 124 "POST /admin/goods/sku/15/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 20:53:25,790 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8817
+INFO 2018-09-26 20:53:25,833 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+WARNING 2018-09-26 20:53:26,585 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:53:26,590 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 20:53:26,591 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-26 20:53:30,354 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:53:30,361 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 20:54:33,343 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:54:33,345 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 20:54:33,387 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-26 20:54:35,813 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:54:35,815 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 20:55:03,556 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:55:03,557 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 20:55:31,025 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:55:31,027 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 20:56:02,857 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:56:02,858 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 20:57:03,356 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:57:03,357 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 20:58:12,116 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:58:12,117 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 20:59:03,547 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 20:59:03,548 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:00:02,875 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:00:02,877 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:00:37,471 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:00:37,473 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:00:38,278 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:00:38,279 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:00:38,593 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:00:38,595 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:00:38,880 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:00:38,881 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:00:39,165 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:00:39,166 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:00:39,546 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:00:39,547 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:00:39,828 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:00:39,829 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:00:40,222 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:00:40,223 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 21:00:47,842 basehttp 124 "GET /admin/goods/sku/14/change/ HTTP/1.1" 200 34188
+INFO 2018-09-26 21:00:47,872 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 21:00:50,884 basehttp 124 "POST /admin/goods/sku/14/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 21:00:50,989 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8818
+INFO 2018-09-26 21:00:51,034 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+WARNING 2018-09-26 21:00:53,659 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:00:53,660 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:01:03,516 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:01:03,517 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 21:01:12,898 basehttp 124 "GET /admin/goods/sku/11/change/ HTTP/1.1" 200 34188
+INFO 2018-09-26 21:01:12,953 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 21:01:19,766 basehttp 124 "POST /admin/goods/sku/11/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 21:01:19,872 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8818
+INFO 2018-09-26 21:01:19,916 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+WARNING 2018-09-26 21:01:20,520 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:01:20,522 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 21:01:20,540 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-26 21:01:32,851 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:01:32,852 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 21:01:39,847 basehttp 124 "GET /admin/goods/sku/13/change/ HTTP/1.1" 200 34186
+INFO 2018-09-26 21:01:39,883 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 21:01:42,278 basehttp 124 "POST /admin/goods/sku/13/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 21:01:42,465 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8817
+INFO 2018-09-26 21:01:42,528 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+WARNING 2018-09-26 21:01:43,144 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:01:43,145 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 21:01:43,157 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-26 21:01:47,332 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:01:47,334 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:01:52,059 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:01:52,065 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 21:01:59,975 basehttp 124 "GET /admin/goods/sku/12/change/ HTTP/1.1" 200 34186
+INFO 2018-09-26 21:02:00,019 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 21:02:02,134 basehttp 124 "POST /admin/goods/sku/12/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 21:02:02,327 basehttp 124 "GET /admin/goods/sku/ HTTP/1.1" 200 8817
+INFO 2018-09-26 21:02:02,421 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+WARNING 2018-09-26 21:02:05,469 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:02:05,471 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:03:02,747 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:03:02,748 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:04:03,768 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:04:03,769 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:05:04,842 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:05:04,848 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:06:03,627 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:06:03,628 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:07:03,342 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:07:03,343 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:08:03,491 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:08:03,492 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:09:03,775 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:09:03,776 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:10:04,465 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:10:04,467 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:11:03,253 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:11:03,254 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:12:03,101 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:12:03,102 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:13:04,465 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:13:04,465 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:14:02,866 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:14:02,867 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:15:04,854 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:15:04,855 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:16:03,540 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:16:03,540 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:17:03,728 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:17:03,729 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:18:03,339 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:18:03,339 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:19:03,483 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:19:03,484 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:20:03,090 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:20:03,091 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:21:04,016 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:21:04,017 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:22:03,640 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:22:03,641 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:23:03,334 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:23:03,335 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:24:03,109 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:24:03,110 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:25:03,485 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:25:03,486 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:26:03,813 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:26:03,815 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+WARNING 2018-09-26 21:27:03,643 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:27:03,649 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:28:29,216 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:28:29,218 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:28:30,686 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:28:30,687 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:28:39,940 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:28:39,945 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:29:03,951 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:29:03,956 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:30:03,869 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:30:03,874 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:31:03,642 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:31:03,644 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:31:16,071 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:31:16,078 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+INFO 2018-09-26 21:31:16,110 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+INFO 2018-09-26 21:31:36,840 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 1369
+INFO 2018-09-26 21:31:38,344 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-26 21:31:45,540 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:31:45,541 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:32:03,412 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:32:03,413 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:32:56,020 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:32:56,021 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:34:00,227 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:34:00,229 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:34:02,830 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:34:02,830 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:35:03,213 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:35:03,214 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:35:45,782 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:35:45,784 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:36:00,478 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:36:00,479 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:36:03,841 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:36:03,842 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:38:46,961 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:38:46,964 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+INFO 2018-09-26 21:38:46,984 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-26 21:38:49,489 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:38:49,490 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:40:11,713 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:40:11,714 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:44:06,369 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:44:06,371 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:45:06,604 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:45:06,607 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:46:17,481 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:46:17,482 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+INFO 2018-09-26 21:46:17,496 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-26 21:46:29,293 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:46:29,294 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:48:00,378 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:48:00,380 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+WARNING 2018-09-26 21:48:29,171 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:48:29,178 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+INFO 2018-09-26 21:48:46,838 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+WARNING 2018-09-26 21:48:46,907 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+WARNING 2018-09-26 21:48:53,145 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+WARNING 2018-09-26 21:48:57,625 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+WARNING 2018-09-26 21:49:17,742 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+WARNING 2018-09-26 21:49:23,680 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+INFO 2018-09-26 21:49:31,867 basehttp 124 "GET /usernames/chengli/count/ HTTP/1.1" 200 32
+WARNING 2018-09-26 21:49:56,812 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+INFO 2018-09-26 21:50:13,120 basehttp 124 "GET /usernames/aaaaaaaa/count/ HTTP/1.1" 200 33
+INFO 2018-09-26 21:50:25,626 basehttp 124 "GET /mobiles/15778787878/count/ HTTP/1.1" 200 34
+INFO 2018-09-26 21:50:26,586 basehttp 124 "GET /sms_codes/15778787878/ HTTP/1.1" 200 16
+INFO 2018-09-26 21:50:26,593 basehttp 124 "GET /mobiles/15778787878/count/ HTTP/1.1" 200 34
+INFO 2018-09-26 21:50:31,473 basehttp 124 "OPTIONS /users/ HTTP/1.1" 200 0
+INFO 2018-09-26 21:50:31,523 basehttp 124 "GET /usernames/aaaaaaaa/count/ HTTP/1.1" 200 33
+INFO 2018-09-26 21:50:31,551 basehttp 124 "GET /mobiles/15778787878/count/ HTTP/1.1" 200 34
+INFO 2018-09-26 21:50:31,603 basehttp 124 "POST /users/ HTTP/1.1" 201 323
+WARNING 2018-09-26 21:50:36,014 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:50:36,022 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+INFO 2018-09-26 21:50:36,041 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+INFO 2018-09-26 21:50:37,245 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-26 21:50:37,336 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 21:50:37,361 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+INFO 2018-09-26 21:50:47,593 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-09-26 23:06:14,610 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-26 23:06:14,655 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 23:06:14,658 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+INFO 2018-09-26 23:06:14,684 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-09-26 23:06:18,980 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-26 23:06:19,055 basehttp 124 "GET /user/ HTTP/1.1" 200 86
+ERROR 2018-09-26 23:06:19,096 exception 135 Internal Server Error: /browse_histories/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/apps/users/views.py", line 185, in get
+    sku_id_list = conn.lrange('history_%s'%user.id)
+TypeError: lrange() missing 2 required positional arguments: 'start' and 'end'
+ERROR 2018-09-26 23:06:19,173 basehttp 124 "GET /browse_histories/ HTTP/1.1" 500 20138
+INFO 2018-09-26 23:06:26,230 basehttp 124 "GET /user/ HTTP/1.1" 200 86
+ERROR 2018-09-26 23:06:26,297 exception 135 Internal Server Error: /browse_histories/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/apps/users/views.py", line 185, in get
+    sku_id_list = conn.lrange('history_%s'%user.id)
+TypeError: lrange() missing 2 required positional arguments: 'start' and 'end'
+ERROR 2018-09-26 23:06:26,329 basehttp 124 "GET /browse_histories/ HTTP/1.1" 500 20138
+INFO 2018-09-26 23:07:07,138 basehttp 124 "GET /user/ HTTP/1.1" 200 86
+INFO 2018-09-26 23:07:07,173 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 238
+INFO 2018-09-26 23:09:02,664 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-26 23:09:02,716 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 214
+WARNING 2018-09-26 23:09:26,305 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+WARNING 2018-09-26 23:09:30,693 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+INFO 2018-09-26 23:09:34,149 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 232
+INFO 2018-09-26 23:09:36,292 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-26 23:09:36,355 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 2
+WARNING 2018-09-26 23:09:46,873 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 23:09:46,887 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+INFO 2018-09-26 23:09:46,899 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-26 23:09:47,780 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 23:09:47,791 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+INFO 2018-09-26 23:09:47,796 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+WARNING 2018-09-26 23:09:50,323 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 23:09:50,324 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+INFO 2018-09-26 23:09:50,376 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-09-26 23:09:53,177 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-26 23:09:53,214 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 474
+WARNING 2018-09-26 23:10:01,733 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 23:10:01,734 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7621
+INFO 2018-09-26 23:10:01,776 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-09-26 23:10:04,074 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 474
+INFO 2018-09-26 23:55:43,948 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 23:55:45,872 basehttp 124 "GET /skus/search/?text=iphone&page=2&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 23:56:49,263 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 23:57:12,716 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 23:58:03,025 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-27 00:07:12,981 basehttp 124 "GET /admin/goods/sku/16/change/ HTTP/1.1" 200 34192
+INFO 2018-09-27 00:07:13,026 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-27 00:17:56,460 basehttp 124 "GET /skus/search/?text=huaw&page=1&page_size=6 HTTP/1.1" 200 2
+INFO 2018-09-27 00:18:02,886 basehttp 124 "GET /skus/search/?text=huawei&page=1&page_size=6 HTTP/1.1" 200 3427
+INFO 2018-09-27 00:18:43,959 basehttp 124 "GET /skus/search/?page=1&page_size=6 HTTP/1.1" 200 6633
+INFO 2018-09-27 00:20:10,546 basehttp 124 "GET /skus/search/?text=huawei&page=1&page_size=6 HTTP/1.1" 200 3427
+INFO 2018-09-27 00:20:33,476 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-27 00:21:06,535 basehttp 124 "GET /skus/search/?page=1&page_size=6 HTTP/1.1" 200 6633
+INFO 2018-09-27 00:21:15,882 basehttp 124 "GET /skus/search/?page=2&page_size=6 HTTP/1.1" 200 6633
+INFO 2018-09-27 00:21:17,083 basehttp 124 "GET /skus/search/?page=3&page_size=6 HTTP/1.1" 200 6633
+INFO 2018-09-27 00:21:17,741 basehttp 124 "GET /skus/search/?page=4&page_size=6 HTTP/1.1" 200 6633
+INFO 2018-09-27 00:21:18,192 basehttp 124 "GET /skus/search/?page=6&page_size=6 HTTP/1.1" 200 6633
+INFO 2018-09-27 00:25:07,844 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+WARNING 2018-09-27 00:25:07,888 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+INFO 2018-09-27 00:25:09,288 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 214
+INFO 2018-09-27 00:25:11,426 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-27 00:25:11,478 basehttp 124 "GET /user/ HTTP/1.1" 200 86
+INFO 2018-09-27 00:25:11,497 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2018-09-27 00:25:11,523 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 238
+INFO 2018-09-27 00:25:21,666 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-27 00:25:30,676 basehttp 124 "GET /skus/search/?text=iphone&page=2&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-27 00:25:31,832 basehttp 124 "GET /skus/search/?text=iphone&page=3&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-27 00:25:32,964 basehttp 124 "GET /skus/search/?text=iphone&page=4&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-27 00:25:34,442 basehttp 124 "GET /skus/search/?text=iphone&page=5&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-27 00:25:35,493 basehttp 124 "GET /skus/search/?text=iphone&page=7&page_size=6 HTTP/1.1" 200 2371
+WARNING 2018-09-27 00:55:56,271 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 00:55:56,277 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 00:55:56,292 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+INFO 2018-09-27 00:55:57,320 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-27 00:55:57,327 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 00:55:57,328 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 00:55:57,394 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-09-27 00:56:00,088 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+ERROR 2018-09-27 00:56:00,101 exception 135 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/apps/carts/views.py", line 26, in post
+    selected = serializer.validated_data('selected')
+TypeError: 'collections.OrderedDict' object is not callable
+ERROR 2018-09-27 00:56:00,132 basehttp 124 "POST /cart/ HTTP/1.1" 500 20535
+ERROR 2018-09-27 00:56:02,388 exception 135 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/apps/carts/views.py", line 26, in post
+    selected = serializer.validated_data('selected')
+TypeError: 'collections.OrderedDict' object is not callable
+ERROR 2018-09-27 00:56:02,401 basehttp 124 "POST /cart/ HTTP/1.1" 500 20535
+WARNING 2018-09-27 00:56:43,794 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 00:56:43,809 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 00:56:43,813 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-09-27 00:56:44,684 basehttp 124 "POST /cart/ HTTP/1.1" 201 39
+INFO 2018-09-27 00:57:02,133 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2018-09-27 00:57:02,184 basehttp 124 "GET /user/ HTTP/1.1" 200 86
+INFO 2018-09-27 00:57:02,221 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 238
+INFO 2018-09-27 00:57:08,093 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-27 00:57:08,149 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-27 00:57:08,169 basehttp 124 "GET /addresses/ HTTP/1.1" 200 65
+INFO 2018-09-27 00:57:10,887 basehttp 124 "GET /user/ HTTP/1.1" 200 86
+INFO 2018-09-27 00:57:10,921 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 238
+WARNING 2018-09-27 00:57:50,388 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 00:57:50,389 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 00:57:50,417 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-27 00:57:51,249 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 00:57:51,250 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 00:57:52,888 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2018-09-27 00:57:52,902 basehttp 124 "POST /cart/ HTTP/1.1" 201 39
+WARNING 2018-09-27 00:58:30,738 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 00:58:30,740 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 00:58:30,752 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-27 00:58:32,526 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 00:58:32,527 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 00:58:33,830 basehttp 124 "POST /cart/ HTTP/1.1" 201 39
+INFO 2018-09-27 00:58:36,057 basehttp 124 "POST /cart/ HTTP/1.1" 201 39
+WARNING 2018-09-27 01:13:00,149 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 01:13:00,151 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 01:13:03,027 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2018-09-27 01:13:03,088 basehttp 124 "GET /cart/ HTTP/1.1" 200 1142
+INFO 2018-09-27 01:13:22,580 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-27 01:13:22,620 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 232
+ERROR 2018-09-27 01:13:25,877 exception 135 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-27 01:13:25,937 basehttp 124 "GET /cart/ HTTP/1.1" 500 92617
+ERROR 2018-09-27 01:13:28,686 exception 135 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-27 01:13:28,775 basehttp 124 "GET /cart/ HTTP/1.1" 500 92617
+WARNING 2018-09-27 01:13:33,038 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 01:13:33,046 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 01:13:33,059 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-27 01:13:34,124 base 152 Not Found: /categories/115/hotskus/
+INFO 2018-09-27 01:13:34,125 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-27 01:13:34,125 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 01:13:34,278 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-09-27 01:13:35,518 basehttp 124 "POST /cart/ HTTP/1.1" 201 39
+ERROR 2018-09-27 01:13:38,512 exception 135 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-27 01:13:38,573 basehttp 124 "GET /cart/ HTTP/1.1" 500 92617
+WARNING 2018-09-27 01:14:38,111 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 01:14:38,113 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 01:14:38,132 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-27 01:14:39,289 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 01:14:39,290 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 01:14:39,339 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-09-27 01:14:48,494 basehttp 124 "POST /cart/ HTTP/1.1" 201 39
+ERROR 2018-09-27 01:14:56,534 exception 135 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-27 01:14:56,607 basehttp 124 "GET /cart/ HTTP/1.1" 500 92617
+ERROR 2018-09-27 01:15:58,049 exception 135 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-27 01:15:58,148 basehttp 124 "GET /cart/ HTTP/1.1" 500 92617
+INFO 2018-09-27 01:16:25,543 basehttp 124 "GET /cart/ HTTP/1.1" 200 1142
+WARNING 2018-09-27 01:16:31,603 base 152 Not Found: /categories/115/hotskus/
+INFO 2018-09-27 01:16:31,618 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-27 01:16:31,618 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+WARNING 2018-09-27 01:16:32,546 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 01:16:32,546 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 01:16:33,998 basehttp 124 "POST /cart/ HTTP/1.1" 201 39
+INFO 2018-09-27 01:16:36,379 basehttp 124 "GET /cart/ HTTP/1.1" 200 1711
+INFO 2018-09-27 01:20:30,938 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 214
+ERROR 2018-09-27 01:21:33,933 exception 135 Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2018-09-27 01:21:33,958 basehttp 124 "GET /cart/ HTTP/1.1" 200 1711
+ERROR 2018-09-27 01:21:34,212 basehttp 124 "GET /cart/ HTTP/1.1" 500 93808
+INFO 2018-09-27 01:23:57,819 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2018-09-27 01:25:52,298 basehttp 124 "GET /cart/ HTTP/1.1" 200 574
+INFO 2018-09-27 01:25:54,650 basehttp 124 "GET /cart/ HTTP/1.1" 200 574
+WARNING 2018-09-27 01:25:59,111 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-27 01:25:59,127 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 01:25:59,139 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+WARNING 2018-09-27 01:26:00,410 base 152 Not Found: /categories/115/hotskus/
+INFO 2018-09-27 01:26:00,410 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-27 01:26:00,411 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7775
+INFO 2018-09-27 01:26:00,455 basehttp 124 "POST /browse_histories/ HTTP/1.1" 201 13
+INFO 2018-09-27 01:26:01,959 basehttp 124 "POST /cart/ HTTP/1.1" 201 39
+INFO 2018-09-27 01:26:04,673 basehttp 124 "GET /cart/ HTTP/1.1" 200 1143
+INFO 2018-09-27 01:26:06,560 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-27 01:26:06,563 basehttp 124 "OPTIONS /orders/settlement/ HTTP/1.1" 200 0
+WARNING 2018-09-27 01:26:06,653 base 152 Not Found: /orders/settlement/
+WARNING 2018-09-27 01:26:06,656 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 404 7760
+INFO 2018-09-27 01:26:06,663 basehttp 124 "GET /addresses/ HTTP/1.1" 200 65

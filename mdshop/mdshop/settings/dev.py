@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'contents.apps.ContentsConfig',
     'django_crontab',
     'haystack',
+    'carts.apps.CartsConfig',
 ]
 
 MIDDLEWARE = [
@@ -126,6 +127,20 @@ CACHES = {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
+    "history": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "cart": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/4",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
 }
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
@@ -304,7 +319,7 @@ GENERATED_STATIC_HTML_FILES_DIR = os.path.join(os.path.dirname(os.path.dirname(B
 # 定时任务
 CRONJOBS = [
     # 每5分钟执行一次生成主页静态文件
-    ('*/10 * * * *', 'contents.crons.generate_static_index_html', '>> /home/python/Desktop/LiChengDjango/mdshop/mdshop/logs/crontab.log')
+    ('*/1 * * * *', 'contents.crons.generate_static_index_html', '>> /home/python/Desktop/LiChengDjango/mdshop/mdshop/logs/crontab.log')
 ]
 
 # Haystack
