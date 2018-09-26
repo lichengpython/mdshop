@@ -1237,3 +1237,580 @@ WARNING 2018-09-21 20:45:17,058 basehttp 124 "GET / HTTP/1.1" 404 3730
 WARNING 2018-09-21 20:45:17,426 base 152 Not Found: /favicon.ico
 WARNING 2018-09-21 20:45:17,427 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3781
 INFO 2018-09-21 20:45:23,640 basehttp 124 "GET /areas/ HTTP/1.1" 200 8261
+INFO 2018-09-21 21:30:20,889 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+WARNING 2018-09-21 21:30:20,937 basehttp 124 "GET /user/ HTTP/1.1" 401 38
+WARNING 2018-09-21 21:30:29,307 basehttp 124 "GET /user/ HTTP/1.1" 401 38
+INFO 2018-09-21 21:30:40,659 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2018-09-21 21:30:40,700 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 232
+INFO 2018-09-21 21:30:40,824 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+INFO 2018-09-21 21:30:40,844 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2018-09-21 21:30:40,867 base 152 Not Found: /browse_histories/
+WARNING 2018-09-21 21:30:40,868 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 5916
+INFO 2018-09-21 21:30:48,365 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+INFO 2018-09-21 21:30:48,374 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-21 21:30:48,426 basehttp 124 "GET /addresses/ HTTP/1.1" 200 64
+INFO 2018-09-21 21:30:50,356 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-21 21:30:50,375 basehttp 124 "GET /addresses/ HTTP/1.1" 200 64
+INFO 2018-09-21 21:31:05,634 basehttp 124 "GET /areas/530000/ HTTP/1.1" 200 658
+INFO 2018-09-21 21:31:08,084 basehttp 124 "GET /areas/530600/ HTTP/1.1" 200 364
+INFO 2018-09-21 21:31:20,567 basehttp 124 "POST /addresses/ HTTP/1.1" 201 229
+INFO 2018-09-21 21:31:26,125 basehttp 124 "OPTIONS /addresses/1/status/ HTTP/1.1" 200 0
+INFO 2018-09-21 21:31:26,141 basehttp 124 "PUT /addresses/1/status/ HTTP/1.1" 200 0
+INFO 2018-09-21 21:31:37,318 basehttp 124 "GET /areas/440000/ HTTP/1.1" 200 694
+INFO 2018-09-21 21:31:40,607 basehttp 124 "GET /areas/440300/ HTTP/1.1" 200 199
+INFO 2018-09-21 21:31:52,529 basehttp 124 "POST /addresses/ HTTP/1.1" 201 235
+INFO 2018-09-21 21:32:02,882 basehttp 124 "GET /areas/130000/ HTTP/1.1" 200 424
+INFO 2018-09-21 21:32:04,021 basehttp 124 "GET /areas/130200/ HTTP/1.1" 200 463
+INFO 2018-09-21 21:32:12,022 basehttp 124 "POST /addresses/ HTTP/1.1" 201 223
+INFO 2018-09-21 21:32:16,916 basehttp 124 "OPTIONS /addresses/3/ HTTP/1.1" 200 0
+INFO 2018-09-21 21:32:16,939 basehttp 124 "PUT /addresses/3/ HTTP/1.1" 200 229
+INFO 2018-09-21 21:32:31,405 basehttp 124 "GET /areas/120000/ HTTP/1.1" 200 34
+INFO 2018-09-21 21:32:32,634 basehttp 124 "GET /areas/120100/ HTTP/1.1" 200 532
+INFO 2018-09-21 21:32:41,599 basehttp 124 "POST /addresses/ HTTP/1.1" 201 232
+INFO 2018-09-21 21:32:46,211 basehttp 124 "GET /areas/120000/ HTTP/1.1" 200 34
+INFO 2018-09-21 21:32:47,469 basehttp 124 "GET /areas/120100/ HTTP/1.1" 200 532
+INFO 2018-09-21 21:32:54,352 basehttp 124 "POST /addresses/ HTTP/1.1" 201 223
+INFO 2018-09-21 21:33:01,162 basehttp 124 "GET /areas/120000/ HTTP/1.1" 200 34
+INFO 2018-09-21 21:33:02,411 basehttp 124 "GET /areas/120100/ HTTP/1.1" 200 532
+WARNING 2018-09-21 21:33:10,800 basehttp 124 "POST /addresses/ HTTP/1.1" 400 38
+WARNING 2018-09-21 21:33:11,930 basehttp 124 "POST /addresses/ HTTP/1.1" 400 38
+WARNING 2018-09-21 21:33:12,544 basehttp 124 "POST /addresses/ HTTP/1.1" 400 38
+WARNING 2018-09-21 21:33:13,163 basehttp 124 "POST /addresses/ HTTP/1.1" 400 38
+WARNING 2018-09-21 21:33:13,893 basehttp 124 "POST /addresses/ HTTP/1.1" 400 38
+WARNING 2018-09-21 21:33:16,758 basehttp 124 "POST /addresses/ HTTP/1.1" 400 38
+WARNING 2018-09-21 21:33:17,394 basehttp 124 "POST /addresses/ HTTP/1.1" 400 38
+INFO 2018-09-21 21:36:20,461 basehttp 124 "GET /areas/120000/ HTTP/1.1" 200 34
+INFO 2018-09-21 21:36:21,388 basehttp 124 "GET /areas/120100/ HTTP/1.1" 200 532
+WARNING 2018-09-21 21:36:29,021 basehttp 124 "POST /addresses/ HTTP/1.1" 400 35
+WARNING 2018-09-21 21:37:21,736 basehttp 124 "POST /addresses/ HTTP/1.1" 400 36
+INFO 2018-09-21 21:37:29,710 basehttp 124 "OPTIONS /addresses/5/ HTTP/1.1" 200 0
+INFO 2018-09-21 21:37:29,726 basehttp 124 "DELETE /addresses/5/ HTTP/1.1" 204 0
+INFO 2018-09-21 21:37:30,536 basehttp 124 "OPTIONS /addresses/4/ HTTP/1.1" 200 0
+INFO 2018-09-21 21:37:30,551 basehttp 124 "DELETE /addresses/4/ HTTP/1.1" 204 0
+INFO 2018-09-21 21:37:31,723 basehttp 124 "DELETE /addresses/3/ HTTP/1.1" 204 0
+INFO 2018-09-21 21:37:35,603 basehttp 124 "OPTIONS /addresses/2/status/ HTTP/1.1" 200 0
+INFO 2018-09-21 21:37:35,620 basehttp 124 "PUT /addresses/2/status/ HTTP/1.1" 200 0
+INFO 2018-09-21 21:37:41,982 basehttp 124 "GET /user/ HTTP/1.1" 200 100
+WARNING 2018-09-21 21:37:42,029 base 152 Not Found: /browse_histories/
+WARNING 2018-09-21 21:37:42,032 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 5916
+INFO 2018-09-21 21:40:22,266 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-21 21:40:22,306 basehttp 124 "GET /addresses/ HTTP/1.1" 200 526
+INFO 2018-09-21 21:40:25,976 basehttp 124 "GET /areas/ HTTP/1.1" 200 1204
+INFO 2018-09-21 21:40:26,022 basehttp 124 "GET /addresses/ HTTP/1.1" 200 526
+INFO 2018-09-26 09:29:38,938 basehttp 124 "GET / HTTP/1.1" 200 5183
+WARNING 2018-09-26 09:29:39,287 base 152 Not Found: /favicon.ico
+WARNING 2018-09-26 09:29:39,289 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 6002
+INFO 2018-09-26 09:29:43,987 basehttp 124 "GET /admin/ HTTP/1.1" 302 0
+INFO 2018-09-26 09:29:44,084 basehttp 124 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1652
+INFO 2018-09-26 09:29:47,390 basehttp 124 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1791
+INFO 2018-09-26 09:29:55,578 basehttp 124 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1781
+INFO 2018-09-26 09:30:05,216 basehttp 124 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2018-09-26 09:30:05,252 basehttp 124 "GET /admin/ HTTP/1.1" 200 7504
+INFO 2018-09-26 09:30:10,033 basehttp 124 "GET /admin/contents/content/ HTTP/1.1" 200 30060
+INFO 2018-09-26 09:30:10,080 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+ERROR 2018-09-26 09:30:11,846 exception 135 Internal Server Error: /admin/contents/content/123/change/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/response.py", line 84, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/loader_tags.py", line 216, in render
+    return template.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 1046, in render
+    return render_value_in_context(output, context)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/template/base.py", line 1024, in render_value_in_context
+    value = force_text(value)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/encoding.py", line 76, in force_text
+    s = six.text_type(s)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/html.py", line 394, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/forms/boundfield.py", line 41, in __str__
+    return self.as_widget()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/forms/boundfield.py", line 127, in as_widget
+    **kwargs
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/forms/widgets.py", line 220, in render
+    context = self.get_context(name, value, attrs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/forms/widgets.py", line 409, in get_context
+    context = super(ClearableFileInput, self).get_context(name, value, attrs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/forms/widgets.py", line 275, in get_context
+    context = super(Input, self).get_context(name, value, attrs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/forms/widgets.py", line 210, in get_context
+    'value': self.format_value(value),
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/forms/widgets.py", line 405, in format_value
+    if self.is_initial(value):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/forms/widgets.py", line 399, in is_initial
+    return bool(value and getattr(value, 'url', False))
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/db/models/fields/files.py", line 70, in url
+    return self.storage.url(self.name)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/functional.py", line 238, in inner
+    self._setup()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/files/storage.py", line 472, in _setup
+    self._wrapped = get_storage_class()()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/files/storage.py", line 467, in get_storage_class
+    return import_string(import_path or settings.DEFAULT_FILE_STORAGE)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/module_loading.py", line 20, in import_string
+    module = import_module(module_path)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'meiduo'
+ERROR 2018-09-26 09:30:12,005 basehttp 124 "GET /admin/contents/content/123/change/ HTTP/1.1" 500 554001
+INFO 2018-09-26 09:31:36,345 basehttp 124 "GET /admin/contents/content/123/change/ HTTP/1.1" 200 9066
+INFO 2018-09-26 09:31:36,394 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 09:31:41,122 basehttp 124 "GET /admin/ HTTP/1.1" 200 7504
+INFO 2018-09-26 09:31:46,019 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4660
+INFO 2018-09-26 09:31:46,051 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 09:31:47,761 basehttp 124 "GET /admin/goods/goods/3/change/ HTTP/1.1" 200 87282
+INFO 2018-09-26 09:31:47,801 basehttp 124 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2018-09-26 09:31:47,805 basehttp 124 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2018-09-26 09:31:47,812 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 09:31:48,194 basehttp 124 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2018-09-26 09:31:48,216 basehttp 124 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2018-09-26 09:31:48,217 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2018-09-26 09:31:48,229 basehttp 124 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2018-09-26 09:31:48,241 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2018-09-26 09:31:48,248 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2018-09-26 09:31:48,249 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2018-09-26 09:31:48,252 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2018-09-26 09:31:48,255 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2018-09-26 09:31:48,296 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2018-09-26 09:31:48,328 basehttp 124 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2018-09-26 09:31:56,006 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/image/dialogs/image.js?t=I3I8 HTTP/1.1" 200 21390
+INFO 2018-09-26 09:31:56,007 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=I3I8 HTTP/1.1" 200 13570
+INFO 2018-09-26 09:31:56,075 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png HTTP/1.1" 200 757
+INFO 2018-09-26 09:31:56,076 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 200 615
+INFO 2018-09-26 09:31:56,078 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png HTTP/1.1" 200 506
+ERROR 2018-09-26 09:32:01,314 basehttp 124 "POST /ckeditor/upload/ HTTP/1.1" 500 59
+INFO 2018-09-26 09:32:14,351 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4660
+INFO 2018-09-26 09:32:18,191 basehttp 124 "GET /admin/goods/goods/1/change/ HTTP/1.1" 200 88935
+INFO 2018-09-26 09:32:18,230 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 09:40:10,995 basehttp 124 "GET / HTTP/1.1" 200 5214
+WARNING 2018-09-26 09:40:11,393 base 152 Not Found: /favicon.ico
+WARNING 2018-09-26 09:40:11,396 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 6002
+INFO 2018-09-26 09:40:16,827 basehttp 124 "GET /admin/ HTTP/1.1" 200 7504
+INFO 2018-09-26 09:40:19,738 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4660
+INFO 2018-09-26 09:40:19,775 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 09:40:21,132 basehttp 124 "GET /admin/goods/goods/2/change/ HTTP/1.1" 200 87823
+INFO 2018-09-26 09:40:21,168 basehttp 124 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,176 basehttp 124 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,182 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 09:40:21,539 basehttp 124 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,557 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,559 basehttp 124 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,572 basehttp 124 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,589 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,591 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,594 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,595 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,597 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,638 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:21,676 basehttp 124 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:40:37,697 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4660
+INFO 2018-09-26 09:40:39,680 basehttp 124 "GET /admin/goods/goods/1/change/ HTTP/1.1" 200 88935
+INFO 2018-09-26 09:40:39,734 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 09:40:59,281 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4660
+INFO 2018-09-26 09:41:00,637 basehttp 124 "GET /admin/goods/goods/add/ HTTP/1.1" 200 84027
+INFO 2018-09-26 09:41:00,675 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 09:41:29,049 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/image/dialogs/image.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:41:29,055 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:41:29,110 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png HTTP/1.1" 304 0
+INFO 2018-09-26 09:41:29,111 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png HTTP/1.1" 304 0
+INFO 2018-09-26 09:41:29,112 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 304 0
+ERROR 2018-09-26 09:41:34,912 exception 135 Internal Server Error: /ckeditor/upload/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 94, in post
+    saved_path = self._save_file(request, uploaded_file)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 133, in _save_file
+    saved_path = storage.save(filename, uploaded_file)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/files/storage.py", line 54, in save
+    return self._save(name, content)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/utils/fastdfs/fdfs_storage.py", line 36, in _save
+    ret = client.upload_by_buffer(content.read())
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/fdfs_client/client.py", line 125, in upload_by_buffer
+    store_serv = tc.tracker_query_storage_stor_without_group()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/fdfs_client/tracker_client.py", line 381, in tracker_query_storage_stor_without_group
+    raise DataError('[-] Error: %d, %s' % (th.status, os.strerror(th.status)))
+fdfs_client.exceptions.DataError: [-] Error: 2, No such file or directory
+ERROR 2018-09-26 09:41:35,021 basehttp 124 "POST /ckeditor/upload/ HTTP/1.1" 500 124096
+INFO 2018-09-26 09:41:51,437 basehttp 124 "GET /ckeditor/browse/?CKEditor=id_desc_detail&CKEditorFuncNum=1&langCode=zh-cn HTTP/1.1" 200 7262
+INFO 2018-09-26 09:41:51,471 basehttp 124 "GET /static/ckeditor/ckeditor_uploader/admin_base.css HTTP/1.1" 200 1481
+INFO 2018-09-26 09:41:51,473 basehttp 124 "GET /static/ckeditor/galleriffic/css/basic.css HTTP/1.1" 200 1043
+INFO 2018-09-26 09:41:51,482 basehttp 124 "GET /static/ckeditor/galleriffic/css/galleriffic-2.css HTTP/1.1" 200 3166
+INFO 2018-09-26 09:41:51,494 basehttp 124 "GET /static/ckeditor/galleriffic/js/jquery-1.3.2.js HTTP/1.1" 200 120619
+INFO 2018-09-26 09:41:51,498 basehttp 124 "GET /static/ckeditor/galleriffic/js/jquery.galleriffic.js HTTP/1.1" 200 33266
+INFO 2018-09-26 09:41:51,502 basehttp 124 "GET /static/ckeditor/galleriffic/js/jquery.opacityrollover.js HTTP/1.1" 200 937
+INFO 2018-09-26 09:41:51,539 basehttp 124 "GET /static/ckeditor/galleriffic/css/loader.gif HTTP/1.1" 200 10453
+ERROR 2018-09-26 09:42:03,875 exception 135 Internal Server Error: /ckeditor/upload/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 94, in post
+    saved_path = self._save_file(request, uploaded_file)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 133, in _save_file
+    saved_path = storage.save(filename, uploaded_file)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/files/storage.py", line 54, in save
+    return self._save(name, content)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/utils/fastdfs/fdfs_storage.py", line 36, in _save
+    ret = client.upload_by_buffer(content.read())
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/fdfs_client/client.py", line 125, in upload_by_buffer
+    store_serv = tc.tracker_query_storage_stor_without_group()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/fdfs_client/tracker_client.py", line 381, in tracker_query_storage_stor_without_group
+    raise DataError('[-] Error: %d, %s' % (th.status, os.strerror(th.status)))
+fdfs_client.exceptions.DataError: [-] Error: 2, No such file or directory
+ERROR 2018-09-26 09:42:04,338 basehttp 124 "POST /ckeditor/upload/ HTTP/1.1" 500 124032
+INFO 2018-09-26 09:47:27,898 basehttp 124 "GET / HTTP/1.1" 200 5214
+WARNING 2018-09-26 09:47:28,319 base 152 Not Found: /favicon.ico
+WARNING 2018-09-26 09:47:28,321 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 6002
+INFO 2018-09-26 09:47:31,795 basehttp 124 "GET /admin/ HTTP/1.1" 200 7504
+INFO 2018-09-26 09:47:34,383 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4660
+INFO 2018-09-26 09:47:34,423 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 09:47:36,144 basehttp 124 "GET /admin/goods/goods/2/change/ HTTP/1.1" 200 87823
+INFO 2018-09-26 09:47:36,182 basehttp 124 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,189 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 09:47:36,190 basehttp 124 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,559 basehttp 124 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,579 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,585 basehttp 124 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,599 basehttp 124 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,611 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,614 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,616 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,619 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,622 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,663 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:36,698 basehttp 124 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:47:40,898 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4660
+INFO 2018-09-26 09:47:43,842 basehttp 124 "GET /admin/goods/goods/add/ HTTP/1.1" 200 84027
+INFO 2018-09-26 09:47:43,883 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 09:48:01,580 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:48:01,583 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/image/dialogs/image.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 09:48:01,637 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png HTTP/1.1" 304 0
+INFO 2018-09-26 09:48:01,641 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png HTTP/1.1" 304 0
+INFO 2018-09-26 09:48:01,642 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 304 0
+ERROR 2018-09-26 09:48:09,951 exception 135 Internal Server Error: /ckeditor/upload/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 94, in post
+    saved_path = self._save_file(request, uploaded_file)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 133, in _save_file
+    saved_path = storage.save(filename, uploaded_file)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/files/storage.py", line 54, in save
+    return self._save(name, content)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/utils/fastdfs/fdfs_storage.py", line 36, in _save
+    ret = client.upload_by_buffer(content.read())
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/fdfs_client/client.py", line 125, in upload_by_buffer
+    store_serv = tc.tracker_query_storage_stor_without_group()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/fdfs_client/tracker_client.py", line 381, in tracker_query_storage_stor_without_group
+    raise DataError('[-] Error: %d, %s' % (th.status, os.strerror(th.status)))
+fdfs_client.exceptions.DataError: [-] Error: 2, No such file or directory
+ERROR 2018-09-26 09:48:10,041 basehttp 124 "POST /ckeditor/upload/ HTTP/1.1" 500 124096
+INFO 2018-09-26 09:50:20,081 basehttp 124 "GET /admin/goods/goods/add/ HTTP/1.1" 200 84027
+INFO 2018-09-26 09:50:20,144 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+ERROR 2018-09-26 09:50:28,334 exception 135 Internal Server Error: /ckeditor/upload/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 94, in post
+    saved_path = self._save_file(request, uploaded_file)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/ckeditor_uploader/views.py", line 133, in _save_file
+    saved_path = storage.save(filename, uploaded_file)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/files/storage.py", line 54, in save
+    return self._save(name, content)
+  File "/home/python/Desktop/LiChengDjango/mdshop/mdshop/mdshop/utils/fastdfs/fdfs_storage.py", line 36, in _save
+    ret = client.upload_by_buffer(content.read())
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/fdfs_client/client.py", line 125, in upload_by_buffer
+    store_serv = tc.tracker_query_storage_stor_without_group()
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/fdfs_client/tracker_client.py", line 381, in tracker_query_storage_stor_without_group
+    raise DataError('[-] Error: %d, %s' % (th.status, os.strerror(th.status)))
+fdfs_client.exceptions.DataError: [-] Error: 2, No such file or directory
+ERROR 2018-09-26 09:50:28,693 basehttp 124 "POST /ckeditor/upload/ HTTP/1.1" 500 124024
+INFO 2018-09-26 10:14:27,900 basehttp 124 "GET / HTTP/1.1" 200 5214
+INFO 2018-09-26 10:14:54,026 basehttp 124 "GET / HTTP/1.1" 200 5214
+INFO 2018-09-26 10:24:17,697 basehttp 124 "GET / HTTP/1.1" 200 5214
+WARNING 2018-09-26 10:24:18,115 base 152 Not Found: /favicon.ico
+WARNING 2018-09-26 10:24:18,117 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 6002
+INFO 2018-09-26 10:24:24,541 basehttp 124 "GET /admin/ HTTP/1.1" 200 7504
+INFO 2018-09-26 10:24:26,922 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4660
+INFO 2018-09-26 10:24:26,964 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 10:24:28,541 basehttp 124 "GET /admin/goods/goods/3/change/ HTTP/1.1" 200 87282
+INFO 2018-09-26 10:24:28,586 basehttp 124 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:28,593 basehttp 124 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:28,600 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 10:24:29,016 basehttp 124 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:29,033 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:29,034 basehttp 124 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:29,048 basehttp 124 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:29,060 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:29,062 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:29,065 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:29,067 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:29,071 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:29,116 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:29,146 basehttp 124 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2018-09-26 10:24:34,338 basehttp 124 "POST /admin/goods/goods/3/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 10:24:34,389 basehttp 124 "GET /admin/goods/goods/ HTTP/1.1" 200 4840
+INFO 2018-09-26 10:24:34,428 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 10:25:16,552 basehttp 124 "GET /admin/ HTTP/1.1" 200 7841
+INFO 2018-09-26 10:25:20,143 basehttp 124 "GET /admin/goods/goodscategory/ HTTP/1.1" 200 27848
+INFO 2018-09-26 10:25:20,180 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 10:25:21,549 basehttp 124 "GET /admin/goods/goodscategory/555/change/ HTTP/1.1" 200 27982
+INFO 2018-09-26 10:25:21,585 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+INFO 2018-09-26 10:25:26,242 basehttp 124 "POST /admin/goods/goodscategory/555/change/ HTTP/1.1" 302 0
+INFO 2018-09-26 10:25:26,579 basehttp 124 "GET /admin/goods/goodscategory/ HTTP/1.1" 200 28034
+INFO 2018-09-26 10:25:26,616 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 7682
+WARNING 2018-09-26 10:25:42,288 base 152 Not Found: /categories/115/skus/
+WARNING 2018-09-26 10:25:42,293 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 6084
+WARNING 2018-09-26 10:25:42,293 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 10:25:42,295 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 6044
+WARNING 2018-09-26 10:31:13,686 base 152 Not Found: /categories/115/skus/
+WARNING 2018-09-26 10:31:13,696 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 10:31:13,697 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 6084
+WARNING 2018-09-26 10:31:13,705 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 6044
+WARNING 2018-09-26 10:31:15,576 base 152 Not Found: /categories/115/skus/
+WARNING 2018-09-26 10:31:15,588 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 10:31:15,590 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 6084
+WARNING 2018-09-26 10:31:15,590 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 6044
+WARNING 2018-09-26 10:33:26,611 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 10:33:26,614 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 6235
+ERROR 2018-09-26 10:33:26,640 exception 135 Internal Server Error: /categories/115/skus/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/mixins.py", line 45, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/django-py3-1.11/lib/python3.5/site-packages/rest_framework/serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+AttributeError: 'str' object has no attribute 'values'
+ERROR 2018-09-26 10:33:26,693 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 500 21194
+WARNING 2018-09-26 10:39:06,787 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 10:39:06,788 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 6235
+INFO 2018-09-26 10:39:06,858 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 2855
+INFO 2018-09-26 10:39:08,652 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 2889
+INFO 2018-09-26 10:39:09,793 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 2239
+INFO 2018-09-26 10:39:11,395 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 2889
+INFO 2018-09-26 10:39:12,266 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 2855
+INFO 2018-09-26 10:45:09,146 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=sales HTTP/1.1" 200 2787
+INFO 2018-09-26 10:45:10,232 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 200 2842
+INFO 2018-09-26 10:45:11,058 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 2855
+INFO 2018-09-26 10:45:15,394 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 2889
+INFO 2018-09-26 10:45:16,420 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 2239
+INFO 2018-09-26 11:22:37,336 basehttp 124 "GET /skus/search/?text=wifi HTTP/1.1" 200 8222
+INFO 2018-09-26 11:22:37,437 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2018-09-26 11:22:37,438 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2018-09-26 11:22:37,439 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2018-09-26 11:22:37,447 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+INFO 2018-09-26 11:22:37,483 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2018-09-26 11:22:37,488 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2018-09-26 11:22:37,493 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2018-09-26 11:22:37,497 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2018-09-26 11:22:37,508 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2018-09-26 11:22:37,520 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2018-09-26 11:22:37,573 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2018-09-26 11:22:37,938 base 152 Not Found: /favicon.ico
+WARNING 2018-09-26 11:22:37,940 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 7418
+INFO 2018-09-26 11:24:03,602 basehttp 124 "GET /skus/search/?page=2&text=wifi HTTP/1.1" 200 8445
+WARNING 2018-09-26 11:25:02,055 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 11:25:02,079 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 11:25:02,146 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+INFO 2018-09-26 11:25:07,062 basehttp 124 "GET /skus/search/?text=wifi&page=1&page_size=6 HTTP/1.1" 200 2690
+INFO 2018-09-26 11:26:43,125 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2421
+INFO 2018-09-26 11:26:44,304 basehttp 124 "GET /skus/search/?text=&page=1&page_size=6 HTTP/1.1" 200 2576
+INFO 2018-09-26 11:28:30,695 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2421
+INFO 2018-09-26 11:30:29,549 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2421
+INFO 2018-09-26 11:30:36,286 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2421
+INFO 2018-09-26 11:32:11,716 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2421
+INFO 2018-09-26 11:32:22,396 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2421
+INFO 2018-09-26 11:32:24,612 basehttp 124 "GET /skus/search/?text=&page=1&page_size=6 HTTP/1.1" 200 2576
+INFO 2018-09-26 11:32:25,534 basehttp 124 "GET /skus/search/?text=&page=1&page_size=6 HTTP/1.1" 200 2576
+INFO 2018-09-26 11:32:26,528 basehttp 124 "GET /skus/search/?text=&page=2&page_size=6 HTTP/1.1" 200 2671
+INFO 2018-09-26 11:32:27,486 basehttp 124 "GET /skus/search/?text=&page=3&page_size=6 HTTP/1.1" 200 1786
+INFO 2018-09-26 11:32:38,590 basehttp 124 "GET /skus/search/?text=w%2B&page=1&page_size=6 HTTP/1.1" 200 52
+INFO 2018-09-26 11:32:56,571 basehttp 124 "GET /skus/search/?text=w%2B&page=1&page_size=6 HTTP/1.1" 200 52
+INFO 2018-09-26 11:36:40,762 basehttp 124 "GET /skus/search/?text=w%2B&page=1&page_size=6 HTTP/1.1" 200 2
+INFO 2018-09-26 11:36:50,310 basehttp 124 "GET /skus/search/?text=iphone&page=1&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:52,325 basehttp 124 "GET /skus/search/?text=iphone&page=2&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:53,500 basehttp 124 "GET /skus/search/?text=iphone&page=3&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:54,510 basehttp 124 "GET /skus/search/?text=iphone&page=4&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:56,646 basehttp 124 "GET /skus/search/?text=iphone&page=5&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:57,205 basehttp 124 "GET /skus/search/?text=iphone&page=6&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:57,414 basehttp 124 "GET /skus/search/?text=iphone&page=7&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:57,635 basehttp 124 "GET /skus/search/?text=iphone&page=8&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:57,782 basehttp 124 "GET /skus/search/?text=iphone&page=9&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:57,931 basehttp 124 "GET /skus/search/?text=iphone&page=10&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:58,469 basehttp 124 "GET /skus/search/?text=iphone&page=11&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:58,678 basehttp 124 "GET /skus/search/?text=iphone&page=12&page_size=6 HTTP/1.1" 200 2371
+INFO 2018-09-26 11:36:58,897 basehttp 124 "GET /skus/search/?text=iphone&page=13&page_size=6 HTTP/1.1" 200 2371
+WARNING 2018-09-26 11:37:05,837 base 152 Not Found: /categories/115/hotskus/
+WARNING 2018-09-26 11:37:05,840 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7454
+INFO 2018-09-26 11:37:05,870 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1321
+INFO 2018-09-26 11:37:07,355 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 1369
+INFO 2018-09-26 11:37:08,295 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 1033
